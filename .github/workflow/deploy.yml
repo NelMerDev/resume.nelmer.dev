@@ -1,0 +1,28 @@
+name: Deploy Resume to S3
+
+on:
+  push:
+    branches:
+      - main  # or your default branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      id-token: write   # 👈 required for OIDC!
+      contents: read    # 👈 required to check out code
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Configure AWS credentials (via OIDC)
+      uses: aws-actions/configure-aws-credentials@v2
+      with:
+        role-to-assume: arn:aws:iam::393679160576:role/GitHubActions-S3-Deploy
+        aws-region: us-east-1  # Replace with your region if different
+
+    - name: Deploy to S3
+      run: |
+        aws s3 sync ./ s3://resume.nelmer.dev/ --delete
