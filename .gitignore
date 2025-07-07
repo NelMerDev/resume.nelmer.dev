@@ -1,0 +1,17 @@
+cat <<EOF > .gitignore
+# Ignore OS / IDE files
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignore build/deployment artifacts
+node_modules/
+dist/
+*.zip
+
+# Editor configs
+.vscode/
+*.swp
+
+# Don't ignore Terraform if used here
+EOF
