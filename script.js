@@ -1,6 +1,6 @@
 async function updateVisitorCount() {
   try {
-    const response = await fetch('https://hj5nir8cjg.execute-api.us-east-1.amazonaws.com/');
+    const response = await fetch('https://p62ky3oajf.execute-api.us-east-1.amazonaws.com');
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
