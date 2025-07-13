@@ -1,6 +1,6 @@
-# resume.nelmer.dev
+# 📄 Resume Website – Frontend
 
-This is my personal resume website built with HTML/CSS, hosted on AWS S3 behind CloudFront with HTTPS and custom DNS.
+This repository contains the static frontend files for my resume website hosted at [https://resume.nelmer.dev](https://resume.nelmer.dev).
 
-It is part of the [Cloud Resume Challenge](https://cloudresumechallenge.dev/).
+To see how the backend is deployed using Terraform, check out the [infrastructure repository](https://github.com/RomeoNotaLoka/resume.nelmer.dev-infra) *(private)*.
 
