@@ -1,5 +1,6 @@
-name: Deploy Resume to S3
-
+# This workflow uploads static resume files to S3 on every commit to main
+name: CI/CD
+  
 on:
   push:
     branches:
