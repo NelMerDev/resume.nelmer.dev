@@ -39,10 +39,6 @@ ul {
   padding-left: 0;
 }
 
-li {
-  /* Removed `margin: auto;` as it's ineffective here */
-}
-
 a {
   color: inherit;
   text-decoration: none;
