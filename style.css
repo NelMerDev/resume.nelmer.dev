@@ -8,11 +8,15 @@ body {
   padding: 0;
 }
 
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 h1 {
   font-size: 22px;
   font-weight: bold;
-  text-align: center;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
 
 h2 {
@@ -68,18 +72,17 @@ section {
   box-sizing: border-box;
 }
 
-.date {
-  font-size: 12px;
-  font-style: normal;
-  float: right;
-  text-align: right;
-}
-
 .contact {
   text-align: center;
   font-size: 12.5px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   color: #000;
+}
+
+.tagline {
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 5px;
 }
 
 .visitor-counter {
@@ -106,7 +109,7 @@ section {
   }
 
   section {
-    margin: 0 0 10px 0;
+    margin: auto;
     padding: 0;
   }
 
@@ -125,4 +128,5 @@ section {
   .visitor-counter {
     display: none;
   }
+  
 }
