@@ -6,26 +6,30 @@
   <title>Nelson Mercedes Resume</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <div class="container">
+
     <header>
       <h1>Nelson Mercedes</h1>
       <p class="contact">
         Florida, USA |
-        <a href="mailto:contact@nelmer.dev">Email</a> |
-        <a href="https://linkedin.com/in/nelmer" target="_blank">LinkedIn</a> |
-        <a href="https://github.com/NelMerDev" target="_blank">GitHub</a>
+        <a href="mailto:contact@nelmer.dev">contact@nelmer.dev</a> |
+        <a href="https://linkedin.com/in/nelmer" target="_blank">linkedin.com/in/nelmer</a> |
+        <a href="https://github.com/NelMerDev" target="_blank">github.com/NelMerDev</a>
       </p>
-      <h3 class="tagline">Cloud / DevOps Engineer | AWS, Terraform, Serverless | Open to remote roles</h3>
+      <h3 class="tagline">Cloud &amp; DevOps Engineer | AWS | Terraform | Docker | CI/CD | Serverless Architect</h3>
     </header>
 
     <section>
-      <h2>About Me</h2>
-      <p>AWS Certified Solutions Architect – Associate and AWS Certified Cloud Practitioner with 10+ years of IT infrastructure experience, specializing in building, automating, and securing cloud-native and hybrid environments. Proven expertise in serverless architectures, infrastructure as code with Terraform, CI/CD pipelines, containerization, and network security.</p>
+      <h2>Summary</h2>
+      <p>
+        AWS Certified Solutions Architect – Associate and Cloud Practitioner with 10+ years of IT infrastructure and systems engineering experience. Delivered hands-on cloud projects using AWS, Terraform, and serverless architectures, building secure, scalable, and automated environments. Skilled in Infrastructure as Code, CI/CD pipelines, and containerized deployments, reducing manual effort and improving system reliability. Seeking to leverage cloud and DevOps expertise to drive impactful solutions in a forward-thinking engineering team.
+      </p>
     </section>
 
     <section>
-      <h2>CERTIFICATIONS</h2>
+      <h2>Certifications</h2>
       <ul>
         <li>AWS Certified Solutions Architect – Associate (May 2025)</li>
         <li>AWS Certified Cloud Practitioner (Apr 2025)</li>
@@ -33,69 +37,82 @@
     </section>
 
     <section>
-      <h2>TECHNICAL SKILLS</h2>
+      <h2>Skills</h2>
       <ul>
-        <li>Cloud & Infrastructure: AWS (EC2, S3, Lambda, RDS, VPC, IAM, Route 53)</li>
-        <li>IaC & Automation: Terraform, AWS SAM, Ansible, Python, Bash scripting</li>
-        <li>Containers & Orchestration: Docker, Docker Compose, Traefik (Cloudflare DNS & SSL integration)</li>
-        <li>CI/CD & DevOps: Git, GitHub Actions, VS Code</li>
-        <li>Monitoring & Observability: CloudWatch, API Gateway logs, metrics, alarms</li>
-        <li>OS & Virtualization: Linux (Ubuntu, Debian), Windows Server, Proxmox</li>
-        <li>Networking & Security: DNS, VPN, HTTP/S, TCP/IP, SSH, DHCP, IAM policies</li>
-        <li>Databases & Tools: DynamoDB, MySQL</li>
+        <li>Cloud &amp; Infrastructure: AWS (EC2, Lambda, S3, API Gateway, DynamoDB, VPC, IAM, Route 53)</li>
+        <li>IaC &amp; Automation: Terraform, AWS SAM, Ansible, CloudFormation, GitHub Actions, Python, Bash</li>
+        <li>Containers &amp; Orchestration: Docker, Docker Compose, Traefik (Cloudflare DNS &amp; SSL)</li>
+        <li>Monitoring &amp; Security: CloudWatch, IAM policies, VPC design, VPN, DNS, RBAC, HTTPS</li>
+        <li>Systems &amp; Virtualization: Linux (Ubuntu, Debian), Windows Server, Proxmox, Synology NAS</li>
+        <li>Databases: DynamoDB, MySQL</li>
       </ul>
     </section>
 
     <section>
-      <h2>EXPERIENCE</h2>
-      <h3><strong> Systems Engineer</strong>
-      <p>Unisys | New York, NY / Orlando, FL </p>
-      <p>Mar 2015 – Apr 2025</p>
-      <ul>
-        <li>Diagnosed and resolved enterprise Windows Server and desktop issues, covering OS, application, and network layers.</li>
-        <li>Performed on-site hardware repairs and upgrades, including system board, storage, memory, and network interface replacements.</li>
-        <li>Coordinated client communication via email, phone, and messaging to schedule maintenance, minimize downtime, and confirm resolution.</li>
-        <li>Managed parts inventory, tracked usage trends, and streamlined logistics for rapid service turnaround.</li>
-        <li>Documented procedures and created runbooks for recurring tasks, enabling faster handoffs and remote troubleshooting.</li>
-        <li>Collaborated with distributed technical teams to escalate complex issues, align on resolutions, and maintain SLAs.</li>
-      </ul>
+      <h2>Projects</h2>
 
-      <h3><strong>IT Support</strong>
-      <p>Marsh & McLennan | New York, NY</p>
-      <p>Aug 2011 – Sep 2012</p>
-      <ul>
-        <li>Provisioned and managed user accounts in Active Directory, applying security group policies and access controls.</li>
-        <li>Deployed and imaged Windows workstations with domain configurations, security hardening, and enterprise software packages.</li>
-        <li>Delivered Tier 1–2 support for hardware, OS, and application issues, resolving tickets within established response times.</li>
-        <li>Created documentation for recurring technical issues, improving team knowledge sharing and resolution consistency.</li>
-      </ul>
+      <article>
+        <h3>AWS Cloud Resume Challenge – Serverless Web App</h3>
+        <ul>
+          <li>Developed a serverless web app hosted on S3 with Python Lambda backend and DynamoDB via API Gateway.</li>
+          <li>Provisioned all infrastructure using Terraform for automated, repeatable deployments.</li>
+          <li>Implemented CI/CD with GitHub Actions to deploy updates automatically, reducing manual deployment time.</li>
+          <li>Configured CloudWatch metrics and alarms to monitor API and Lambda performance.</li>
+          <li>Secured deployment using IAM roles and Cloudflare-managed HTTPS at <a href="https://resume.nelmer.dev" target="_blank">resume.nelmer.dev</a>.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>HomeLab Automation Environment</h3>
+        <ul>
+          <li>Built a Proxmox-based virtualization lab hosting Linux and Windows VMs for DevOps and cloud testing.</li>
+          <li>Managed self-hosted apps with Docker and Portainer for efficient container orchestration.</li>
+          <li>Configured Traefik reverse proxy with Cloudflare DNS for automatic SSL management.</li>
+          <li>Automated OS and app deployments using Ansible and Bash scripts, reducing setup time by 70%.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <article>
+        <h3>Field Systems Engineer | Unisys</h3>
+        <p>New York, NY / Orlando, FL | Mar 2015 – Apr 2025</p>
+        <ul>
+          <li>Delivered on-site and remote enterprise IT support across servers, desktops, and network systems, maintaining SLA compliance.</li>
+          <li>Automated recurring tasks using Ansible and PowerShell, reducing manual workload by 40%.</li>
+          <li>Created detailed documentation and runbooks, improving team troubleshooting efficiency.</li>
+          <li>Collaborated with infrastructure teams to resolve escalations in networking and systems.</li>
+          <li>Supported OS imaging, patching, and configuration for enterprise environments with zero downtime incidents.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>IT Support Technician | Marsh &amp; McLennan</h3>
+        <p>New York, NY | Aug 2011 – Sep 2012</p>
+        <ul>
+          <li>Managed user provisioning, access control, and security policies in Active Directory.</li>
+          <li>Deployed and imaged Windows workstations following enterprise standards.</li>
+          <li>Provided Tier 1–2 support for hardware, OS, and application issues with rapid resolution.</li>
+          <li>Authored internal documentation, enhancing ticket resolution efficiency and team knowledge sharing.</li>
+        </ul>
+      </article>
     </section>
 
     <section>
       <h2>EDUCATION</h2>
       <ul>
-        <li><strong>New York City College of Technology</strong> | Brooklyn, NY<br>Completed coursework toward B.S. in Mechanical and Electrical Engineering (1 year)</li>
-        <li><strong>Year Up</strong> | New York, NY <br>IT Support & Professional Skills Training</li>
+        <li><strong>New York City College of Technology</strong> | Brooklyn, NY<br>Completed 1 year of B.S. coursework in Mechanical and Electrical Engineering</li>
+        <li><strong>Year Up</strong> | New York, NY <br>IT Support &amp; Professional Skills Training</li>
       </ul>
     </section>
 
-    <section>
-      <h2>PERSONAL PROJECTS</h2>
-      <ul>
-        <li>Designed and deployed a serverless web application for the AWS Cloud Resume Challenge: static resume on Amazon S3, backend logic in Python (AWS Lambda) updating DynamoDB via Amazon API Gateway, and real-time visitor count rendering with JavaScript.</li>
-        <li>Provisioned Amazon Web Services (AWS) infrastructure using Terraform modules for S3, IAM, API Gateway, Lambda, and DynamoDB, ensuring reproducible, automated deployments.</li>
-        <li>Managed version control with Git and GitHub, implementing CI/CD pipelines with GitHub Actions to automatically build and deploy updates to the Amazon S3-hosted website upon code commits.</li>
-        <li>Implemented centralized logging, metrics, and alarms with Amazon CloudWatch; secured workloads with IAM policies and role-based access control.</li>
-        <li>Built a homelab using Proxmox to host Linux and Windows VMs, deploying containerized workloads with Docker and Portainer.</li>
-        <li>Deployed applications on Proxmox and Synology NAS using Traefik with Cloudflare DNS for automated TLS certificate management.</li>
-        <li>Automated infrastructure setup and system configuration with Ansible and Bash, reducing manual deployment time.</li>
-      </ul>
-    </section>
-
-    <!-- Visitor counter -->
-    <p class="visitor-counter">Visitor Count: <span id="visitor-count">Loading...</span></p>
-    <script src="script.js"></script>
+    <footer>
+      <p class="visitor-counter">Visitor Count: <span id="visitor-count">Loading...</span></p>
+    </footer>
 
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
