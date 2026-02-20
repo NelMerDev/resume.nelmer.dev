@@ -53,6 +53,7 @@ resume.nelmer.dev/
 - Infrastructure separation (frontend vs Terraform)
 - Secure AWS deployment practices
 - Production-style CI/CD workflow
+- Remote Terraform backend with state locking (via separate infra repository)
 
 ---
 
