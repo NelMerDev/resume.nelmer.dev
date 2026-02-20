@@ -38,8 +38,8 @@ This ensures fully automated, repeatable deployments.
 
 ```
 resume.nelmer.dev/
-├─ site/src/ # Static website files
-├─ .github/workflows/ # CI/CD pipeline
+├─ site/src/             # Static website files
+├─ .github/workflows/    # CI/CD pipeline
 ├─ README.md
 ├─ LICENSE
 └─ .gitignore
