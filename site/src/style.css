@@ -65,10 +65,11 @@ section {
 }
 
 .container {
-  width: 8.5in;
+  width: 100%;
+  max-width: 8.5in;
   min-height: 11in;
   margin: auto;
-  padding: 0;
+  padding: 0 16px;
   box-sizing: border-box;
 }
 
@@ -83,6 +84,10 @@ section {
   font-size: 13px;
   font-weight: normal;
   margin-top: 5px;
+}
+
+.print-only {
+  display: none;
 }
 
 .visitor-counter {
@@ -100,6 +105,10 @@ section {
 
   footer, .no-print, .visitor-counter {
     display: none !important;
+  }
+
+  .print-only {
+    display: inline;
   }
 
   a {
@@ -148,7 +157,14 @@ section {
   section {
     margin: 0;
     padding: 0;
-    page-break-inside: avoid;  /* Prevents section splits across pages */
+  }
+
+  article {
+    break-inside: avoid;  /* Keeps each job together without pushing whole sections */
+  }
+
+  h2, h3 {
+    break-after: avoid;  /* Keeps headings with the content below them */
   }
 
   .container {
